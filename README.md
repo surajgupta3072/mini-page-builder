@@ -13,7 +13,7 @@ This project is a Mini Page Builder built with React. It allows users to drag an
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/thewhitewolf09/mini-page-builder.git
+   git clone https://github.com/surajgupta3072/mini-page-builder.git
    cd mini-page-builder
 2. Install dependencies:
     npm install
