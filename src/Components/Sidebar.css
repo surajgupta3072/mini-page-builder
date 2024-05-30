@@ -1,0 +1,81 @@
+.Sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #333; /* Dark background */
+    border-right: 1px solid #444;
+    color: #fff; /* Light text color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .Sidebar div span {
+    margin-top: 0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .Sidebar div div {
+    padding-top: 20px;
+  }
+  
+  .Sidebar div div div {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Light background for buttons */
+    color: #333; /* Dark text color for buttons */
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .Sidebar div div div:hover {
+    background-color: #e0e0e0; /* Slightly darker on hover */
+  }
+  
+  .Sidebar div div div:active {
+    background-color: #d0d0d0; /* Darker when active */
+  }
+  
+  .Sidebar button.exportButton {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .Sidebar button.exportButton:hover {
+    background-color: #45a049; /* Darker shade on hover */
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .Sidebar {
+      width: 100%;
+      padding: 10px;
+      border-right: none;
+    }
+  
+    .Sidebar div div div {
+      padding: 8px;
+    }
+  
+    .Sidebar button.exportButton {
+      padding: 8px 16px;
+      margin: 8px 0;
+    }
+  }

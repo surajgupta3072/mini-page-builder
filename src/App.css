@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-direction: column; /* Display as a column for responsive layout */
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.App * {
+  box-sizing: border-box;
+}
+
+.App h2 {
+  margin-top: 0;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .App {
+    flex-direction: row; /* Change to row layout for larger screens */
+  }
+}

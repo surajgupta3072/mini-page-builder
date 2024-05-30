@@ -1,0 +1,20 @@
+.Canvas {
+    flex: 1;
+    position: relative;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.Canvas:after {
+    content: "";
+    display: block;
+    clear:both;
+}
+
+@media (max-width: 76px) {
+    .Canvas{
+        padding: 10px;
+    }
+}
